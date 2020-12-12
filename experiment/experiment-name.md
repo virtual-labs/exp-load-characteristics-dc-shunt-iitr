@@ -1,1 +1,1 @@
-## Experiment name
+## 	Familiarization of the electrical machine laboratory apparatus.
