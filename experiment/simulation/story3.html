@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: #ECEFF4;
+}
+
+/* Fixed sidenav, full height */
+.sidenav
+ {
+  height: 270px;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  left: 100;
+  background-color: #222D32;
+  overflow-x: hidden;
+  padding-top: 10px;
+  box-shadow: 15px 15px 50px grey;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn 
+{
+ padding: 6px 2px 6px 2px;
+  text-decoration: none;
+  font-size: 12px;
+ color: #ECEFF4;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-btn 
+{
+ padding-left: 15px;
+}
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: white;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #111C20;
+  color: #ECEFF4;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color:#222D32;
+  padding-left: 18px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+input[type=button]
+ {
+  background-color: #3385ff;
+  border: none;
+  color: white;
+   padding: 6px 26px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+  box-shadow: 0 7px #999;
+}
+input[type=button]:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#a
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+}
+img
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+</style>
+</head>
+<body>
+<div style="position:absolute;top:30px;width:1000px;height:680px;left:100px">
+<div class="sidenav" >
+  <a href="#about"><img id="a" src="images/re.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Relay</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/rel.png" height="45" width="50"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Relays are switches that open and close circuits electromechanically or electronically.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 500px;">
+  <a href="#about"><img src="images/ccc.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Circuit Breaker</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/cb.png" height="45" width="40"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">To interrupt the current flow after a fault is detected. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 1000px;">
+  <a href="#about"><img src="images/s.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Slip Ring Induction Motor</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/ss.png" height="45" width="70"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Generally employed where load requires high starting torque or good speed control.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-top:450px;" >
+  <a href="#about"><img src="images/sqq.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Squirrel Cage Induction Motor</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/sq.png" height="45" width="70"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It functions on the principle of electromagnetism.The interaction of the magnetic fields produced by the stator and rotor windings produces a torque on the squirrel cage rotor. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 500px;margin-top:450px;">
+  <a href="#about"><img src="images/DC Motor.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">DC Motor</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/d.png" height="45" width="60"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">A DC motor is any of a class of rotary electrical machines that converts direct current electrical energy into mechanical energy. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 1000px;margin-top:450px;">
+  <a href="#about"><img src="images/aa.png" height="100" width="200"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Auto Transformer</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/at.png" height="45" width="50"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is used to start induction motors,regulate the voltage of transmission lines,transform voltages when the primary to secondary ratio is close to unity.</a>
+  </div>
+</div>
+
+		<div style="position:absolute;left:1080px;top:850px;">
+            <input id="n"  style="height:50px; width:150px "type="button" onclick="window.location.href = 'story4.html';" value="Next &raquo" >
+        </div>
+        <div style="position:absolute;left:900px;top:850px;">
+            <input id="n"   style="height:50px; width:150px " type="button" onclick="window.location.href = 'story2.html';" value="&laquo Previous" >
+        </div>
+</div>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 

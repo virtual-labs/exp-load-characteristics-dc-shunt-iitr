@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: #ECEFF4;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9
+ {
+  float: left;
+  width: 30px;
+  height: 60px;
+  margin: 12px;
+  padding: 25px;
+  border:2px solid black;
+  box-shadow: 15px 15px 50px grey;
+}
+
+#div10,#div11,#div12,#div13,#div14,#div15,#div16,#div17,#div18  
+{
+  float: left;
+  width: 30px;
+  height: 60px;
+  margin: 12px;
+  padding: 25px;
+  border: 2px solid black;
+  box-shadow: 15px 15px 50px grey;
+}
+
+input[type=submit]
+ {
+  background-color: #3385ff;
+  border: none;
+  color: white;
+   padding: 6px 26px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+  box-shadow: 0 7px #999;
+}
+input[type=button]:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script>
+function allowDrop(ev)
+{
+  ev.preventDefault();
+}
+
+
+function drag(ev) 
+{
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev)
+{
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  if (ev.target.id == document.getElementById(data).getAttribute('data-div'))
+  { 
+     alert("Correct"); 
+     ev.target.appendChild(document.getElementById(data));
+
+  }
+  else
+  {
+     alert("Please try again !!!");
+  }
+}
+
+</script>
+</head>
+<body>
+<div style="position: relative;width: 1700px;height: 800px;">
+  <div id="div1" style="position: relative;margin-left:5px;margin-top: 50px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/ss.png" draggable="true" ondragstart="drag(event)" id="drag1" width="100" height="150"  data-div="div12">
+</div>
+<div id="div2" style="margin-left: 20px;width: 100px;height: 150px; margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/rel.png" draggable="true" ondragstart="drag(event)" id="drag2" width="100" height="150" data-div="div14">
+</div>
+  <div id="div3" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Ameter.png" draggable="true" ondragstart="drag(event)" id="drag3" width="100" height="150"  data-div="div13">
+</div>
+<div id="div4" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/DC Motor.png" draggable="true" ondragstart="drag(event)" id="drag4" width="100" height="150"  data-div="div17">
+</div>
+  <div id="div5" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Rehostate.png" draggable="true" ondragstart="drag(event)" id="drag5" width="100" height="150"  data-div="div15">
+</div>
+<div id="div6" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/at.png" draggable="true" ondragstart="drag(event)" id="drag6" width="100" height="150" data-div="div10">
+</div>
+  <div id="div7" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Capacitor.png" draggable="true" ondragstart="drag(event)" id="drag7" width="100" height="150"  data-div="div11">
+</div>
+<div id="div8" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/sq.png" draggable="true" ondragstart="drag(event)" id="drag8" width="100" height="150"  data-div="div18">
+</div>
+<div id="div8" style="margin-left: 20px;width: 100px;height: 150px;margin-top: 50px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/cb.png" draggable="true" ondragstart="drag(event)" id="drag9" width="100" height="150" data-div="div16">
+</div>
+
+ <p style="font-size: 15px;position: absolute;left:25px;top:398px"><b>Auto Transformer<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbol</b></p>
+ <p style="font-size: 15px;position: absolute;left:200px;top:398px"><b>stores charge in it</b></p>
+ <p style="font-size: 15px;position: absolute;left:380px;top:398px"><b>Slip Ring Induction<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motor</b></p>
+ <p style="font-size: 15px;position: absolute;left:575px;top:398px"><b>Ideally it has zero<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resistance</b></p>
+ <p style="font-size: 15px;position: absolute;left:770px;top:398px"><b>Relay Symbol</b></p>
+ <p style="font-size: 15px;position: absolute;left:930px;top:398px"><b>Variable Resistor</b></p>
+ <p style="font-size: 15px;position: absolute;left:1125px;top:398px"><b>Circuit Breaker<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbol</b></p>
+ <p style="font-size: 15px;position: absolute;left:1325px;top:398px"><b>DC Motor</b></p>
+ <p style="font-size: 15px;position: absolute;left:1500px;top:398px"><b>Squirrel Cage<br>Induction Motor</b></p>
+
+<div id="div10" style="position: relative;margin-left:5px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div11" style="position: relative;margin-left:20px;margin-top: 200px;width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div12" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div13" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div14" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div15" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div16" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div17" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+<div id="div18" style="position: relative;margin-left:20px;margin-top: 200px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 270px;"></div>
+</div>
+        <div style="position:absolute;left:750px;top:800px;">
+            <input id="s" style="height:50px; width:100px " type="submit" value="Submit" onclick="window.location.href ='images/FamilarizationPDF.pdf';">
+        </div>
+</div>
+
+</body>
+</html>
