@@ -90,60 +90,61 @@
 
   const myQuestions = [
     {
-      question: "With Ohm's law, if voltage increases and resistance stays the same:",  ///// Write the question inside double quotes
+      question: "DC shunt generator has terminal voltage versus load current characteristic which is",  ///// Write the question inside double quotes
       answers: {
-        a: "current remains the same",                  ///// Write the option 1 inside double quotes
-        b: "power decreases",                  ///// Write the option 2 inside double quotes
-        c: "current increases",                  ///// Write the option 3 inside double quotes
-        d: "resistance decreases"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
-    {
-     question: "Capacitor stores which type of energy?",  ///// Write the question inside double quotes
-      answers: {
-        a: "potential energy",                  ///// Write the option 1 inside double quotes
-        b: "vibrational energy",                  ///// Write the option 2 inside double quotes
-        c: "kinetic energy",                  ///// Write the option 3 inside double quotes
-        d: "heat energy"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
-
-{
-     question: "The electrical energy consumed by a coil is stored in the form of:",  ///// Write the question inside double quotes
-      answers: {
-        a: "an electrical field",                  ///// Write the option 1 inside double quotes
-        b: "a force field",                  ///// Write the option 2 inside double quotes
-        c: "an electrostatic field",                  ///// Write the option 3 inside double quotes
-        d: "a magnetic field"                   ///// Write the option 4 inside double quotes
+        a: "Constant",                  ///// Write the option 1 inside double quotes
+        b: "Slightly drooping",                  ///// Write the option 2 inside double quotes
+        c: "Slightly rising",                  ///// Write the option 3 inside double quotes
+        d: "Highly drooping"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "Protective relays can be designed to respond to ___________",  ///// Write the question inside double quotes
+     question: "Which of the following type of dc generator gives constant output voltage at all loads ?",  ///// Write the question inside double quotes
       answers: {
-        a: "Light intensity, impedance",                  ///// Write the option 1 inside double quotes
-        b: "Temperature, resistance, reactance",                  ///// Write the option 2 inside double quotes
-        c: "Voltage and current",                  ///// Write the option 3 inside double quotes
+        a: "Shunt generator",                  ///// Write the option 1 inside double quotes
+        b: "Series generator",                  ///// Write the option 2 inside double quotes
+        c: "Shot shunt compound generator",                  ///// Write the option 3 inside double quotes
+        d: "Level compound generator"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below 
+    									                  ///// this line
+{
+     question: "The terminal voltage of dc shunt generator drops on load because of",  ///// Write the question inside double quotes
+      answers: {
+        a: "Armature reaction",                  ///// Write the option 1 inside double quotes
+        b: "Armature resistance",                  ///// Write the option 2 inside double quotes
+        c: "Weakening of the field due to armature reaction",                  ///// Write the option 3 inside double quotes
         d: "All of these"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "The internal resistance of a voltmeter must be very high so that:",  ///// Write the question inside double quotes
+     question: "If the load on an over-compounded dc generator is reduced, the terminal voltage",  ///// Write the question inside double quotes
       answers: {
-        a: "Minimum current passes through the meter",                  ///// Write the option 1 inside double quotes
-        b: "Range is high",                  ///// Write the option 2 inside double quotes
-        c: "Accuracy is high",                  ///// Write the option 3 inside double quotes
-        d: "Loading effect is maximum"                   ///// Write the option 4 inside double quotes
+        a: "Increases",                  ///// Write the option 1 inside double quotes
+        b: "Decreases",                  ///// Write the option 2 inside double quotes
+        c: "Remains unchanged",                  ///// Write the option 3 inside double quotes
+        d: "May increase or decrease14"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
+
+
+    {
+     question: "Copper losses in armature of dc generator amount to which of the following percentage of full load losses ?",  ///// Write the question inside double quotes
+      answers: {
+        a: "5 to 10%",                  ///// Write the option 1 inside double quotes
+        b: "10 to 20%",                  ///// Write the option 2 inside double quotes
+        c: "20 to 30%",                  ///// Write the option 3 inside double quotes
+        d: "30 to 40%"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    },
+
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
 

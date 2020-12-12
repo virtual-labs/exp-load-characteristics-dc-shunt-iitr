@@ -90,62 +90,61 @@
 
   const myQuestions = [
     {
-      question: "What happens to current and resistance if the voltage doubles?",  ///// Write the question inside double quotes
+      question: "Armature magnetic field in a dc generator produces which of the following effect?",  ///// Write the question inside double quotes
       answers: {
-        a: "Current doubles and resistance doubles.",                  ///// Write the option 1 inside double quotes
-        b: "Current doubles and resistance is halved.",                  ///// Write the option 2 inside double quotes
-        c: "Current remains the same and resistance doubles.",                  ///// Write the option 3 inside double quotes
-        d: "Current doubles and resistance remains the same."                   ///// Write the option 4 inside double quotes
+        a: "It demagnetizes or reduces the main flux",                  ///// Write the option 1 inside double quotes
+        b: "It cross-magnetizes the main flux",                  ///// Write the option 2 inside double quotes
+        c: "It magnetizes or reinforces the main flux",                  ///// Write the option 3 inside double quotes
+        d: "Both (a) and (b)"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "If a parallel plate capacitor of plate area 2m2 and a plate sepration of 1m store the charge of 1.77* 10-11 C. What is the voltage across the capacitor?",  ///// Write the question inside double quotes
+      question: "In a dc generator, the polarity of the interpole is",  ///// Write the question inside double quotes
       answers: {
-        a: "1V",                  ///// Write the option 1 inside double quotes
-        b: "2V",                  ///// Write the option 2 inside double quotes
-        c: "3V",                  ///// Write the option 3 inside double quotes
-        d: "4V"                   ///// Write the option 4 inside double quotes
+        a: "Always N",                  ///// Write the option 1 inside double quotes
+        b: "Always S",                  ///// Write the option 2 inside double quotes
+        c: "C Same as the main pole ahead",                  ///// Write the option 3 inside double quotes
+        d: "Same as main pole behind"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
- {
-      question: "Direction of rotation of motor is determined by ____________",  ///// Write the question inside double quotes
+{
+      question: "In a dc generator, compared to the air gap under field poles, the interpole air gap is made",  ///// Write the question inside double quotes
       answers: {
-        a: "Faraday’s law",                  ///// Write the option 1 inside double quotes
-        b: "Lenz’s law",                  ///// Write the option 2 inside double quotes
-        c: "Coulomb’s law",                  ///// Write the option 3 inside double quotes
-        d: "Fleming’s left-hand rule"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "d"                ///// Write the correct option inside double quotes
-    },
-
-     {
-      question: "Plug setting of a electromagnetic relay can be altered by varying:",  ///// Write the question inside double quotes
-      answers: {
-        a: "Number of ampere turns",                  ///// Write the option 1 inside double quotes
-        b: "Air gap of magnetic path",                  ///// Write the option 2 inside double quotes
-        c: "Adjustable back stop",                  ///// Write the option 3 inside double quotes
-        d: "None of these"                   ///// Write the option 4 inside double quotes
+        a: "Larger",                  ///// Write the option 1 inside double quotes
+        b: "Smaller",                  ///// Write the option 2 inside double quotes
+        c: "The same",                  ///// Write the option 3 inside double quotes
+        d: "Much smaller"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },
+    }, 
 
-     {
-      question: "Sensitivity of a voltmeter is given by the :",  ///// Write the question inside double quotes
+    {
+      question: "The function of using compensating winding in dc machines is to neutral-lize the",  ///// Write the question inside double quotes
       answers: {
-        a: "Ohms per volt",                  ///// Write the option 1 inside double quotes
-        b: "Reciprocal of full scale deflection current",                  ///// Write the option 2 inside double quotes
-        c: "Both (a) and (b)",                  ///// Write the option 3 inside double quotes
-        d: "None of the above"                   ///// Write the option 4 inside double quotes
+        a: "Armature reaction in the interpole zone",                  ///// Write the option 1 inside double quotes
+        b: "Armature reacting in the commu-tating zone",                  ///// Write the option 2 inside double quotes
+        c: "Armature reaction under the pole faces",                  ///// Write the option 3 inside double quotes
+        d: "Cross-magnetizing armature reaction"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+    }, 
 
-    
+
+    {
+      question: "The yoke of a dc generator is made of cast iron because",  ///// Write the question inside double quotes
+      answers: {
+        a: "It is cheaper",                  ///// Write the option 1 inside double quotes
+        b: "It completes the magnetic path",                  ///// Write the option 2 inside double quotes
+        c: "It gives mechanical protection to the machine",                  ///// Write the option 3 inside double quotes
+        d: "All of these"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    }, 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
 
