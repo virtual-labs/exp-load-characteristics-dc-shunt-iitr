@@ -1,1 +1,1 @@
-## 	Familiarization of the electrical machine laboratory apparatus.
+## 	To study the Load Characteristics of DC shunt generator

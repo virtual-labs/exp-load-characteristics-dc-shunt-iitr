@@ -1,38 +1,42 @@
 ## Post test
 <br>
-Q1.What happens to current and resistance if the voltage doubles?<br>
-A  Current doubles and resistance doubles.<br>
-B  Current doubles and resistance is halved.<br>
-C  Current remains the same and resistance doubles.<br>
-<b>D  Current doubles and resistance remains the same.<br></b><br>
+Q1 Armature magnetic field in a dc generator produces which of the following effect?<br>
+
+A It demagnetizes or reduces the main flux<br>
+B It cross-magnetizes the main flux<br>
+C It magnetizes or reinforces the main flux<br>
+<b>D Both (a) and (b) <br></b>
 
 
-Q2. If a parallel plate capacitor of plate area 2m2 and a plate sepration of 1m store the charge of 1.77* 10-11 C. What is the voltage across the capacitor?<br>
-<b>A  1V<br></b>
-B  2V<br>
-C  3V<br>
-D  4V<br><br>
 
-Q3.Direction of rotation of motor is determined by ____________<br>
-A  Faraday’s law<br>
-B  Lenz’s law<br>
-C  Coulomb’s law<br>
-<b>D  Fleming’s left-hand rule<br></b>
+Q2 In a dc generator, the polarity of the interpole is<br>
+A Always N<br>
+B Always S<br>
+<b> C Same as the main pole ahead<br></b>
+D Same as main pole behind<br>
 
 
-Q4. Plug setting of a electromagnetic relay can be altered by varying:<br>
-<b>A  Number of ampere turns<br></b>
-B  Air gap of magnetic path<br>
-C  Adjustable back stop<br>
-D  None of these<br><br>
+
+Q3 In a dc generator, compared to the air gap under field poles, the interpole air gap is made<br>
+<b>A Larger<br></b>
+B Smaller<br>
+C The same<br>
+D Much smaller<br>
 
 
-Q5. Sensitivity of a voltmeter is given by the :<br>
-A  Ohms per volt<br>
-B  Reciprocal of full scale deflection current<br>
-<b>C  Both (a) and (b)<br></b>
-D  None of the above<br><br>
 
 
+Q4 The function of using compensating winding in dc machines is to neutral-lize the<br>
+A Armature reaction in the interpole zone<br>
+B Armature reacting in the commu-tating zone<br>
+<b>C Armature reaction under the pole faces<br></b>
+D Cross-magnetizing armature reaction<br>
+
+
+Q5 The yoke of a dc generator is made of cast iron because<br>
+A It is cheaper<br>
+B It completes the magnetic path<br>
+C It gives mechanical protection to the machine<br>
+<b>D All of these<br></b>
 
 

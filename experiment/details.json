@@ -2,7 +2,7 @@
 
    "details": [
        {
-			"Experiment": "Familiarization of the electrical machine laboratory apparatus",     
+			"Experiment": "To study the Load Characteristics of DC shunt generator",     
 			"Lab": "Electrical Machines (Simulation)",               
 			"Discipline": "Electrical Engineering",				 
 			"Technology": "HTML, JavaScript, CSS, Google Web Designer"         
@@ -34,6 +34,12 @@
 			"Contributer": "Priyanshi Agarwal",             
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+      "Contributer": "Team Swarrnim Institute of Technology, Gandhinagar",             
+      "Institute": "Swarrnim Institute of Technology, Gandhinagar",               
+      "InstituteAcronym": "SSIU"         
        }
    ]
 
