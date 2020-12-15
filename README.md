@@ -6,11 +6,10 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Electrical Machines (Simulation)
-<b> Experiment|     <b> 1. 	Familiarization of the electrical machine laboratory apparatus.
-
+<b> Experiment|     <b> 2. 	To study the Load Characteristics of DC shunt generator
 <h5> About the Experiment : </h5> <br>
 
-This experiment is to make students familiar with frequently used electrical equipment.
+This experiment is for study the load characterstics of DC Shunt Generator. Draw the internal characteristics and external characteristics under different loading condition.
 
 <b>Name of Developer | <b> Prof. RS Anand
 :--|:--|
