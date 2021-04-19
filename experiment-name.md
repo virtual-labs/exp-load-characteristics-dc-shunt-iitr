@@ -1,0 +1,1 @@
+## 	To study the Load Characteristics of DC shunt generator

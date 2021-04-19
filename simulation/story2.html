@@ -1,0 +1,119 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: #ECEFF4;
+}
+#div1,#div2,#div3,#div4
+ {
+  float: left;
+  width: 140px;
+  height: 100px;
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+  
+    box-shadow: 15px 15px 50px grey;
+}
+
+#div5,#div6,#div7,#div8 
+{
+  float: left;
+  width: 140px;
+  height: 100px;
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+
+  
+    box-shadow: 15px 15px 50px grey;
+}
+
+input[type=button]
+ {
+  background-color: #3385ff;
+  border: none;
+  color: white;
+   padding: 6px 26px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+  box-shadow: 0 7px #999;
+}
+input[type=button]:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script>
+function allowDrop(ev)
+{
+  ev.preventDefault();
+}
+
+
+function drag(ev) 
+{
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev)
+{
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  if (ev.target.id == document.getElementById(data).getAttribute('data-div'))
+  { 
+     alert("Correct"); 
+     ev.target.appendChild(document.getElementById(data));
+
+  }
+  else
+  {
+     alert("Please try again !!!");
+  }
+}
+
+</script>
+</head>
+<body>
+<div style="position: relative;margin-left:100px; width: 1500px;height: 900px;">
+  <div style="position: relative;margin-left:50px; width: 200px;height: 200px;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Rehostate.png" draggable="true" ondragstart="drag(event)" id="drag1" width="180" height="200" data-div="div6">
+</div>
+<div id="div2" style="margin-left: 50px;width: 200px;height: 200px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Voltmeter.png" draggable="true" ondragstart="drag(event)" id="drag2" width="180" height="200"  data-div="div7">
+</div>
+  <div id="div3" style="margin-left: 50px;width: 200px;height: 200px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/in.png" draggable="true" ondragstart="drag(event)" id="drag3" width="180" height="200"  data-div="div8">
+</div>
+<div id="div4" style="margin-left: 50px;width: 200px;height: 200px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/res.png" draggable="true" ondragstart="drag(event)" id="drag4" width="180" height="200"  data-div="div5">
+</div>
+
+ <p style="font-size: 15px;position: absolute;left:150px;top:450px" ><b>Resistor</b></p>
+ <p style="font-size: 15px;position: absolute;left:475px;top:450px" ><b>Rheostat</b></p>
+ <p style="font-size: 15px;position: absolute;left:775px;top:450px" ><b>Measures voltage <br>across 2 terminals</b></p>
+ <p style="font-size: 15px;position: absolute;left:1125px;top:450px" ><b>Allows DC through<br> &nbsp;   it but blocks AC</b></p>
+
+<div id="div5" style="margin-left: 50px;width: 200px;height: 200px; margin-top: 200px " ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+<div id="div6" style="margin-left: 50px;width: 200px;height: 200px; margin-top: 200px "ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+<div id="div7" style="margin-left: 50px;width: 200px;height: 200px; margin-top: 200px" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div8" style="margin-left: 50px;width: 200px;height: 200px; margin-top: 200px"ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+
+</div>
+        <div style="position:absolute;left:1250px;top:850px;">
+            <input style="height:50px; width:150px " id="n" type="button" onclick="window.location.href = 'story3.html';" value="Next &raquo">
+        </div>
+        <div style="position:absolute;left:1050px;top:850px;">
+            <input style="height:50px; width:150px " id="n" type="button" onclick="window.location.href = 'story1.html';" value="&laquo Previous">
+        </div>
+</div>
+</body>
+</html>

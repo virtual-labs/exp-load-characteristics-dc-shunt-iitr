@@ -1,0 +1,518 @@
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 100%; height: 100%; float: left; }
+#div1 {
+    width: 25%;
+    height: 45%;
+    border: 1px solid black
+}
+
+#div2 {
+    width: 74%;
+    height: 45%;
+    border: 1px solid black
+}
+
+#div3 {
+    width: 25%;
+    height: 54%;
+    border: 1px solid black
+}
+
+
+
+
+#div4 {
+    width: 45%;
+    height: 54%;
+    
+    border: 1px solid black
+}
+
+#div5 {
+    width: 29%;
+    height: 54%;
+    border: 1px solid black
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#mcbOff {
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+#div2 img {
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 10px; 
+}
+
+#motorOutside {
+    position: absolute;
+    width: 200px;
+    padding-left: 60px;
+    padding-top: 60px; 
+    left: 28%;
+    top: 47%;
+}
+
+#motorInside {
+    position: relative;
+    width: 130px;
+    padding-left: 30px;
+    padding-top: 30px;
+    top: 72px;
+    left: 105px; 
+}
+
+#generatorOutside {
+    position: absolute;
+    width: 200px;
+    padding-left: 60px;
+    padding-top: 60px; 
+    left: 48%;
+    top: 47%; 
+}
+
+#generatorInside {
+    position: relative;
+    width: 130px;
+    padding-left: 30px;
+    padding-top: 30px;
+    top: 72px;
+    left: 208px; 
+}
+
+button#checkButton {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+button#resetButton {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+button#addButton {
+    position: relative;
+    left: 40%;
+}
+
+button {
+    background-color: green;
+    border: 4px solid black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+
+button#nextButton {
+    position: relative;
+    top: 85%;
+    left: 35%;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+   overflow-y:auto;
+}
+
+#div3 img {
+    width: 35px;
+}
+
+#text_1,#text_2,#text_3,#text_4 {
+    text-align: center;
+    font-weight: bold
+}
+
+#box {
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 200px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 85px;
+
+    border: 1px solid black;
+    
+}
+
+/* ||===========================================================|| */
+
+body {
+    background-color: linen;
+
+}
+  
+html, body { height: 100%; padding: 0; margin: 0; }
+
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+/** JSPLUMB ARTEFACTS **/
+.jtk-overlay {
+    z-index: 51;
+}
+
+.jtk-endpoint {
+    z-index: 50;
+    cursor: move;
+}
+
+.jtk-connector {
+    z-index: 1;
+}
+
+/** ELEMENTS **/
+.littledot
+{
+    cursor: pointer;
+    width: 5px;
+    height: 5px;
+    background-image: url(littledot.png);
+    width: 5px;
+    height: 5px;
+    z-index: 5;
+    position: absolute;
+    border-radius: 31px;
+}
+
+.littledot-hover-hover {
+    border: 2px solid orange;
+}
+
+.dropHover {
+    border: 1px solid orange;
+}
+
+#pr {
+    position: relative;
+    top: 660px;
+    right: 100px;
+    
+}
+
+path, .jtk-endpoint {
+    cursor: pointer;
+}
+
+/* .wrapper {
+    width: 800px;
+    
+    position: relative;
+    top: 20%;
+    left: 10%; 
+    display: inline-block; 
+  } */
+
+  .wrapper {
+      width: 80em;
+      position: relative;
+      
+  }
+  .rang {
+    text-align: center;
+    
+  }
+
+  .rang-title {
+    margin-left: 20px;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .rang-title2 {
+    position: relative;
+    left: 50%; 
+    bottom: 100%;
+    /*
+    bottom: 20%;
+    display: inline-block;
+    width: 200px; */
+    /* margin-bottom: 20px; */
+    margin-left: 15px;
+    
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .rang-number {
+    width: 100%;
+    margin-top: 10px;
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    color: black;
+  }
+
+  .rang-slider {
+    margin-top: 30px;
+    width: 80%;
+    
+  }
+  .meter {
+    display: block;
+    width: 283px;
+    height: 155px;
+    margin: 0px auto
+
+  }
+
+  .meter-shape {
+    -webkit-transform: skewX(-2deg) skewY(1deg);
+            transform: skewX(-2deg) skewY(1deg);
+    stroke-width: 18;
+    stroke-dashoffset: 253;
+    stroke: #ff1515;
+    fill: none;
+  }
+
+  .meter-clock {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+  }
+
+  .meter-clock2 {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137 px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+  }
+
+  .meter-circle {
+    fill: black;
+  }
+
+  #range {
+    width: 100px;
+  }
+
+  .meter1 {
+    width: 500px;
+    margin: auto 100px;
+  }
+
+  .meter2 {
+    position: relative;
+    bottom: 20%;
+    width: 100%;
+    margin: auto 100px;
+    
+  }
+
+  .other {
+    text-align: center;
+  }
+
+  .other {
+    margin-top: 70px;
+  }
+
+  #myDiv {
+      position: relative;
+      top: 120%;
+      left: 3%;
+  }
+
+.disabled {
+    opacity: 0.5
+}
+
+.hidden {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.meter-clock {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+}
+
+.meter-clock2 {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+}
+
+.meter-clock3 {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+}
+
+.meter-clock4 {
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+    -webkit-transform-origin: 137px 146px;
+            transform-origin: 137px 146px;
+    fill: black;
+}
+
+#myDiv {
+    top: 650px;
+    left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+a#plusMCB {
+    position: relative;
+    bottom: 10px;
+}
+
+a#minusA1 {
+    position: relative;
+    bottom: 10px;
+}
+
+a#minus {
+    position: relative;
+    bottom: 10px;
+}
+
+a#minusMCB {
+    position: relative;
+    bottom: 20px;
+}
+
+a#plus {
+    position: relative;
+    bottom: 10px;
+}
+
+a#plusA1 {
+    position: relative;
+    bottom: 10px;
+} 
+  a#B2 {
+    position: absolute;
+    
+}
+
+a#B1 {
+    /* position: relative; */
+    left: 30px;
+    bottom: 25px;
+} 
+
+a#A2 {
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+}
+
+a#A2_2 {
+    position: relative;
+    right: 40px;
+    bottom: 55px;
+}
+
+a#Z2 {
+    position: relative;
+    left: 30px;
+    bottom: 50px
+}
+
+a#A1 {
+    position: relative;
+    right: 40px;
+    bottom: 30px
+}
+ 
+a#Z1 {
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
+.gwd-image-15py {
+    top: 382px;
+    background-image: none;
+    background-color: transparent;
+    transform-style: preserve-3d;
+    transform-origin: 37.5px 37.5px 0px;
+    transform: translate3d(13.4933px, 6.2972px, 0px) scale3d(0.880538, 0.685566, 1);
+  }
+
+  .gwd-image-qpql {
+    position: absolute;
+    left: 724px;
+    top: 383px;
+    width: 75px;
+    height: 75px;
+  }
+
+  .tooltip {
+    position: absolute;
+    display: inline-block;
+    margin-left: -170px;
+   margin-top: 60px;
+   /* color: white; */
+   text-decoration: underline;
+    padding: 12px 10px;
+    /* border-bottom: 1px;  */
+    border-style: none;
+    font-style: normal;
+    background-color: #27d447
+
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 450px;
+    background:linen;
+    color: black;
+    text-align: left;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    position: absolute;
+    margin-left: -400px;
+    padding-left: 5px;
+  }
