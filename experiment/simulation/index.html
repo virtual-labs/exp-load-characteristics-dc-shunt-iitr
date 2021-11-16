@@ -1,14 +1,1235 @@
+<!DOCTYPE html>
 <html>
 
+<head>
+  <meta charset="utf-8">
+  <title>Load Characterstics of DC Shunt Generator</title>
+  <meta name="generator" content="Google Web Designer 5.1.0.0529">
+  <meta name="template" content="Expandable 3.0.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="gwdpage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-page">
+  <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-pagedeck">
+  <link href="gwdimage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-image">
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+      position: absolute;
+    }
+    .gwd-page-wrapper {
+      background-color: linen;
+      position: absolute;
+      transform: translateZ(0px);
+    }
+    .page1-content {
+      width: 550px;
+      height: 400px;
+    }
+    .gwd-div-1but {
+      width: 2200px;
+      height: 1200px;
+    }
+    .gwd-page-3jik {
+      width: 2200px;
+      height: 1200px;
+    }
+    .gwd-rect-uxvz {
+      position: absolute;
+      box-sizing: border-box;
+      border-style: solid;
+      height: 50%;
+      width: 60%;
+      left: 1%;
+      background-image: none;
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-color: rgb(0, 0, 0);
+      background-color:linen;
+      border-width: 4px;
+      top: 0.84%;
+    }
+    .gwd-line-1293 {
+      position: absolute;
+      stroke: rgb(0, 0, 0);
+      width: 1320px;
+      top: 263.5px;
+      height: 4px;
+      stroke-width: 4px;
+      left: 22px;
+    }
+    .gwd-line-vuf2 {
+      position: absolute;
+      stroke: rgb(0, 0, 0);
+      stroke-width: 4px;
+      left: 348px;
+      height: 602px;
+      transform-origin: 0.995447px 300.958px 0px;
+      width: 4px;
+      top: 9px;
+      transform: translate3d(0px, 0px, 0px);
+    }
+    .gwd-line-n86y {
+      position: absolute;
+      stroke-width: 1px;
+      stroke: rgb(0, 0, 0);
+      width: 1px;
+      left: 935px;
+      top: 268px;
+      height: 332px;
+      transform-origin: 0.5px 166px 0px;
+    }
+    .gwd-image-59pu {
+      position: absolute;
+      width: 123px;
+      height: 269px;
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-image-1b4t {
+      position: absolute;
+      width: 70px;
+      height: 150px;
+      top: 23px;
+      left: 38px;
+    }
+    .gwd-rect-1j4a {
+      position: absolute;
+      width: 158px;
+      height: 64px;
+      box-sizing: border-box;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      left: 145px;
+      background-image: none;
+      background-color: linen;
+      border-width: 3px;
+      top: 46px;
+    }
+    .gwd-p-vn04 {
+      position: absolute;
+      width: 84px;
+      height: 19px;
+      left: 171px;
+      top: 63px;
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-color: rgb(248, 241, 241);
+    }
+    .gwd-image-f8b0 {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      left: 416px;
+      top: 28px;
+    }
+    .gwd-image-1alm {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      left: 607px;
+      top: 31px;
+    }
+    .gwd-image-182v {
+      top: 31px;
+      left: 863px;
+    }
+    .gwd-image-1vc9 {
+      left: 1070px;
+      top: 31px;
+    }
+    .gwd-image-zl3t {
+      left: 623px;
+    }
+    .gwd-rect-j7qs {
+      position: absolute;
+      box-sizing: border-box;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      width: 140px;
+      background-image: none;
+      background-color: rgb(139, 123, 123);
+      border-width: 3px;
+      height: 232px;
+      transform-origin: 70px 116px 0px;
+      top: 315px;
+      left: 144px;
+    }
+    .gwd-image-1qd2 {
+      position: absolute;
+      left: 126px;
+      top: 308px;
+      width: 40px;
+      height: 40px;
+    }
+    .gwd-image-14oa {
+      left: 112px;
+      top: 509px;
+    }
+    .gwd-image-kkx6 {
+      border-style: solid;
+      border-width: 2px;
+      top: 502px;
+      left: 225px;
+    }
+    .gwd-image-8oig {
+      border-style: solid;
+      border-width: 2px;
+      top: 456px;
+      left: 160px;
+    }
+    .gwd-image-1w9j {
+      border-style: solid;
+      border-width: 2px;
+      top: 410px;
+      left: 160px;
+    }
+    .gwd-image-cksb {
+      top: 364px;
+      background-image: none;
+      background-color: transparent;
+      border-style: solid;
+      border-width: 2px;
+      left: 225px;
+    }
+    .gwd-image-1qvd {
+      background-image: none;
+      background-color: transparent;
+      border-style: solid;
+      top: 318px;
+      border-width: 2px;
+      left: 160px;
+    }
+    .gwd-image-1fjn {
+      left: 113px;
+      top: 505px;
+    }
+    .gwd-image-nx22 {
+      border-style: solid;
+      border-width: 2px;
+      top: 456px;
+      left: 225px;
+    }
+    .gwd-image-x9em {
+      border-style: solid;
+      border-width: 2px;
+      top: 410px;
+      left: 225px;
+    }
+    .gwd-image-1uv5 {
+      background-image: none;
+      background-color: transparent;
+      border-style: solid;
+      top: 364px;
+      border-width: 2px;
+      left: 160px;
+    }
+    .gwd-image-fljl {
+      background-image: none;
+      background-color: transparent;
+      border-style: solid;
+      top: 318px;
+      border-width: 2px;
+      left: 225px;
+    }
+    .gwd-image-1q71 {
+      background-image: none;
+      background-color: transparent;
+      border-style: solid;
+      border-width: 2px;
+      top: 502px;
+      left: 160px;
+    }
+    .gwd-rect-1nhd {
+      position: absolute;
+      width: 212px;
+      height: 220px;
+      left: 384px;
+      box-sizing: border-box;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      background-color: linen;
+      top: 314px;
+    }
+    .gwd-svg-eh72 {
+      left: 666px;
+      top: 321px;
+      border-width: 3px;
+    }
+    .gwd-svg-83di {
+      top: 321px;
+      left: 396px;
+      
+      border-width: 3px;
+    }
+    .gwd-image-3n7g {
+      position: absolute;
+      left: 402px;
+      top: 330px;
+      width: 150px;
+      height: 150px;
+    }
+    .gwd-image-uecn {
+      background-image: none;
+      background-color: linen;
+      border-style: solid;
+      border-width: 2px;
+      transform-origin: 86.9965px 86.9965px 0px;
+      left: 696px;
+      top: 354px;
+    }
+    
+    .gwd-image-11w7 {
+      left: 452px;
+      top: 382px;
+    }
+    
+    .gwd-button-m5jk {
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 984.8px;
+      top: 309.6px;
+      border: none;
+      font-style: normal;
+    }
+    .gwd-button-q1e1 {
+      background-image: none;
+      background-color: #27d447;
+      /* color: white; */
+      font-family: Tahoma;
+      /* border-image: -webkit-linear-gradient(0deg, rgb(5, 9, 5) 0%, rgb(0, 0, 0) 100%) 7% 1% / 1 / 0 stretch; */
+      font-size: 16px;
+      /* font-weight: bold; */
+      overflow: hidden;
+      transform-origin: 50px 14px 0px;
+      left: 1230px;
+      height: 30px;
+      top: 375px;
+      /* border-radius: 15px; */
+    }
+    .gwd-button-1ouh {
+      left: 1230px;
+      background-image: none;
+      background-color: #27d447;
+      /* border-image-slice: 7% 1%; */
+      /* border-image-source: -webkit-radial-gradient(center center, circle cover, rgb(8, 30, 8) 0%, rgb(0, 0, 0) 100%); */
+      font-size: 16px;
+      /* font-weight: bold;
+      font-style: normal;
+      overflow: hidden; */
+      top: 564px;
+      /* transform-origin: 50px 14.5px 0px; */
+      height: 30px;
+      /* border-radius: 15px; */
+    }
+    .gwd-button-13nv {
+      background-image: none;
+      background-color: #27d447;
+      /* border-image-slice: 7% 1%; */
+      /* border-image-source: -webkit-radial-gradient(center center, circle cover, rgb(10, 25, 10) 0%, rgb(0, 0, 0) 100%); */
+      /* font-family: Tahoma; */
+      /* font-size: 16px; */
+      /* font-weight: bold; */
+      font-style: normal;
+      /* overflow: hidden; */
+      top: 500px;
+      height: 30px;
+      /* transform-origin: 50px 15px 0px; */
+      left: 1230px;
+      /* border-radius: 15px; */
+    }
+    .gwd-button-15mk {
+      background-image: none;
+      background-color: #27d447;
+      left: 1230px;
+      /* border-image: -webkit-linear-gradient(0deg, rgb(6, 12, 6) 0%, rgb(0, 0, 0) 100%) 7% 1% / 1 / 0 stretch; */
+      /* font-family: Tahoma; */
+      /* font-size: 16px; */
+      /* font-weight: bold; */
+      /* overflow: hidden; */
+      top: 309px;
+      height: 30px;
+      /* border-radius: 15px; */
+      border: none;
+    }
+    .gwd-p-ekro {
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: auto;
+    }
+    .gwd-p-11tx {
+      position: absolute;
+      background-image: none;
+      background-color: rgb(226, 226, 234);
+      width: 255px;
+      font-weight: bold;
+      font-family: "Times New Roman";
+      padding-left: 0px;
+      left: 955px;
+      top: 274px;
+      height: 31px;
+      transform-origin: 117px 16.6667px 0px;
+      text-align: center;
+      font-style: normal;
+      font-size: 22px;
+    }
+    .gwd-p-h8cd {
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: auto;
+    }
+    .gwd-button-1ez8 {
+      position: absolute;
+      width: 5px;
+      height: 20px;
+      left: 35px;
+      top: 188px;
+    }
+    .gwd-button-1ggw {
+      left: 83px;
+      top: 188px;
+    }
+    .gwd-button-4rqr {
+      left: 51px;
+    }
+    .gwd-button-13fg {
+      left: 254px;
+      top: 124px;
+    }
+    .gwd-button-7tuy {
+      top: 123px;
+      left: 205px;
+    }
+    .gwd-button-9t4m {
+      left: 156px;
+      top: 122px;
+    }
+    .gwd-button-vhqe {
+      left: 445px;
+      top: 166px;
+    }
+    .gwd-button-lzcn {
+      left: 531px;
+      top: 167px;
+    }
+    .gwd-button-16on {
+      left: 738px;
+      top: 169px;
+    }
+    .gwd-button-1qel {
+      left: 652px;
+      top: 168px;
+    }
+    .gwd-button-10dx {
+      left: 973px;
+      top: 164px;
+    }
+    .gwd-button-okbp {
+      top: 169px;
+      left: 892px;
+    }
+    .gwd-button-q04n {
+      left: 1185px;
+      top: 169px;
+    }
+    .gwd-button-14z8 {
+      left: 1099px;
+      top: 169px;
+    }
+    .gwd-button-swj7 {
+      left: 208px;
+      top: 300px;
+    }
+    .gwd-button-w8r9 {
+      left: 173px;
+      top: 573px;
+    }
+    .gwd-button-2cgy {
+      top: 554px;
+      left: 517px;
+    }
+    .gwd-button-h0i5 {
+      left: 472px;
+      top: 520px;
+    }
+    .gwd-button-1ffb {
+      left: 514px;
+      top: 338px;
+    }
+    .gwd-button-mllc {
+      left: 475px;
+      top: 338px;
+    }
+    .gwd-button-1kfq {
+      top: 553px;
+      left: 513px;
+    }
+    .gwd-button-o26n {
+      left: 785px;
+      top: 520px;
+    }
+    .gwd-button-3vxd {
+      left: 746px;
+      top: 551px;
+    }
+    .gwd-button-mqtu {
+      top: 336px;
+    }
+    .gwd-button-1ux9 {
+      left: 786px;
+      top: 336px;
+    }
+    .gwd-button-1qbd {
+      top: 520px;
+    }
+    .gwd-image-1hb5 {
+      position: absolute;
+      width: 20px;
+      height: 70px;
+      left: 482px;
+      /* top: 57px; */
+      top: 382px;
+      background-image: none;
+      background-color: transparent;
+    }
+    .gwd-image-139q {
+      left: 689px;
+      top: 59px;
+      
+    }
+    .gwd-image-13cv {
+      left: 929px;
+      top: 59px;
+    }
+    .gwd-image-ytb9 {
+      left: 1136px;
+      top: 58px;
+      transform:  rotateZ(-78.2578deg);
+    }
+    .gwd-image-e2cz {
+      background-image: none;
+      background-color: rgb(196, 198, 227);
+    }
+    .gwd-image-1yfr {
+      left: 416px;
+      top: 28px;
+    }
+    .gwd-image-qtug {
+      left: 688px;
+      transform-style: preserve-3d;
+      transform:  rotateZ(-78.2578deg);
+    }
+    .gwd-image-qi8o {
+      top: 50px;
+      left: 482px;
+      transform-origin: 10px 46.5px 0px;
+      transform-style: preserve-3d;
+      transform:  rotateZ(-74.2578deg);
+    }
+    
+    .gwd-image-14vj {
+      transform-style: preserve-3d;
+      transform:  rotateZ(-78.2578deg);
+    }
 
+    #myDiv {
+      left: 1230px;
+      top: 572px;
+    }
+    
+    @keyframes gwd-gen-24ykgwdanimation_gwd-keyframes {
+      0% {
+        transform: rotateZ(0deg);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: rotateZ(-179.95deg);
+        animation-timing-function: linear;
+      }
+    }
+    /* #page1.gwd-play-animation .gwd-gen-24ykgwdanimation {
+      animation: gwd-gen-24ykgwdanimation_gwd-keyframes 12s linear 0s 1 normal forwards running;
+    } */
+    @keyframes gwd-gen-pqxcgwdanimation_gwd-keyframes {
+      0% {
+        transform: rotateZ(0deg);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: rotateZ(-179.95deg);
+        animation-timing-function: linear;
+      }
+    } 
+    /* #page1.gwd-play-animation .gwd-gen-pqxcgwdanimation {
+      animation: gwd-gen-pqxcgwdanimation_gwd-keyframes 12s linear 0s 1 normal forwards running;
+    } */
+    .gwd-imagebutton-qf59 {
+      position: absolute;
+      width: 60px;
+      left: 41px;
+      top: 23px;
+      height: 150px;
+      transform-origin: 30px 75px 0px;
+    }
 
-    <body >
+    .gwd-table-y2uh {
+      position: absolute;
+      /* width: 256px; */
+      left: 923px;
+      border-color: rgb(95, 91, 91);
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      background-image: none;
+      
+      top: 288px;
+      /* height: 281px; */
+      transform-origin: 128px 140.323px 0px;
+      /* background-color: rgb(196, 195, 230); */
+    }
 
+    
+    .gwd-image-l5lx {
+      position: absolute;
+      left: 468px;
+      top: 50px;
+      transform-style: preserve-3d;
+      height: 129.736px;
+      width: 23.1799px;
+      transform-origin: 11.5795px 64.85px 0px;
+      transform: translate3d(12px, 4px, 0px) rotateZ(-0.505433deg);
+    }
+
+    .gwd-imagebutton-qf59 {
+      position: absolute;
+      width: 60px;
+      left: 41px;
+      top: 23px;
+      height: 150px;
+      transform-origin: 30px 75px 0px;
+    }
+
+    .gwd-rect-10gm {
+      position: absolute;
+      box-sizing: border-box;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      background-color: linen;
+      left: 34px;
+      top: 40px;
+      width: 2118px;
+      height: 1124px;
+      transform-origin: 1059px 562px 0px;
+    }
+
+    .gwd-div-1jc6 {
+      width: 2200px;
+      height: 1200px;
+    }
+
+    .gwd-page-8ug3 {
+      width: 2200px;
+      height: 1200px;
+    }
+    .gwd-select-li9t {
+      position: absolute;
+      height: 24px;
+      left: 34px;
+      top: 293px;
+      width: 69px;
+      transform-origin: 34.4px 12px 0px;
+    }
+
+    .gwd-sub-1u5p {
+      position: absolute;
+      font-size: 20px;
+      text-align: center;
+      font-family: Arial;
+      font-weight: bold;
+      top: 570px;
+      width: 126px;
+      height: 24px;
+      transform-origin: 63.2px 11.7125px 0px;
+      left: 438px;
+    }
+
+    .gwd-sub-1xuc {
+      font-style: italic;
+      font-size: 15px;
+    }
+    .gwd-span-1we6 {
+      left: 711px;
+    }
+    .gwd-span-1orn {
+      left: 427px;
+      top: 205px;
+    }
+    .gwd-span-1cfy {
+      left: 638px;
+      top: 205px;
+    }
+    .gwd-span-1b6y {
+      left: 427px;
+      top: 205px;
+    }
+    .gwd-span-okz0 {
+      left: 1087px;
+      top: 204px;
+    }
+    .gwd-span-j4ey {
+      left: 876px;
+      top: 205px;
+    }
+    .gwd-span-nkjp {
+      left: 40px;
+      top: 231px;
+      width: 71px;
+      transform-origin: 35.5264px 11.7057px 0px;
+    }
+    .gwd-span-z5ze {
+      top: 220px;
+    }
+    .gwd-svg-1lbq {
+      top: 0.92%;
+    }
+    .gwd-span-1m87 {
+      left: 636px;
+      top: 221px;
+    }
+    .gwd-span-1r1z {
+      left: 877px;
+    }
+    .gwd-span-1n7f {
+      left: 1087px;
+      top: 220px;
+    }
+    .gwd-span-rnqr {
+      left: 638px;
+      top: 220px;
+    }
+    .gwd-span-s5rz {
+      left: 437px;
+    }
+
+    .gwd-sub-nzt4 {
+      position: absolute;
+      width: 107px;
+      height: 24px;
+      transform-origin: 62.7045px 16px 0px;
+      font-size: 15px;
+      text-align: center;
+      font-weight: bold;
+      left: 27px;
+      top: 284px;
+    }
+    .gwd-p-1bb4 {
+      left: 435px;
+      top: 548px;
+    }
+    .gwd-p-17vd {
+      top: 291px;
+    }
+    .gwd-p-1xu7 {
+      left: 531px;
+      top: 290px;
+    }
+    .gwd-p-1ql3 {
+      left: 527px;
+      top: 549px;
+    }
+    .gwd-p-1o77 {
+      top: 291px;
+      left: 528px;
+    }
+    .gwd-p-4z5a {
+      left: 708px;
+      top: 292px;
+    }
+    .gwd-p-vawj {
+      left: 802px;
+      top: 292px;
+    }
+    .gwd-p-1xhv {
+      left: 802px;
+      top: 549px;
+    }
+    .gwd-p-cyno {
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-p-1emd {
+      left: 530px;
+    }
+    .gwd-p-1fee {
+      left: 433px;
+      top: 549px;
+    }
+    .gwd-p-qu8r {
+      left: 530px;
+    }
+    .gwd-p-ylf9 {
+      left: 437px;
+    }
+    .gwd-image-78p5 {
+      
+      top: 58px;
+      left: 205px;
+    }
+    .gwd-image-luu9 {
+      left: 255px;
+      top: 57px;
+      margin-left: 100px;
+    }
+    .gwd-image-11yc {
+      top: 58px;
+      left: 156px;
+      margin-left: 50px;
+    }
+    .gwd-image-1c4n {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      transform-origin: 19px 19px 0px;
+      left: 149px;
+      top: 57px;
+    }
+    .gwd-rect-1ldd {
+      position: absolute;
+      box-sizing: border-box;
+      border-color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      height: 21px;
+      transform-origin: 30.4px 10.4px 0px;
+      top: 425px;
+      left: 606px;
+      border-width: 2px;
+      border-radius: 1px;
+      width: 61px;
+      border-style: double;
+    }
+    .gwd-image-f1lx {
+      position: absolute;
+      width: 197px;
+      height: 144px;
+      transform-origin: 98.5px 72px 0px;
+      border-style: solid;
+      border-width: 2px;
+      top: 359px;
+      left: 402px;
+    }
+    .gwd-rect-xfxw {
+      position: absolute;
+      box-sizing: border-box;
+      border-color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      height: 25px;
+      border-width: 2px;
+      border-style: double;
+      width: 25px;
+      left: 625.8px;
+      top: 423px;
+    }
+    .gwd-image-1uq2 {
+      position: absolute;
+      height: 137px;
+      transform-origin: 104.658px 68.7847px 0px;
+      width: 190px;
+      top: 363px;
+      border-style: solid;
+      border-width: 2px;
+      left: 405px;
+    }
+
+    .gwd-button-a2 {
+      top: 520px;
+    }
+
+    .gwd-button-b1 {
+      top: 555px;
+      left: 210px;
+    }
+    .gwd-image-dk0o {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      top: 393px;
+      left: 736px;
+    }
+
+    .gwd-input-dldk {
+      position: absolute;
+      width: 55px;
+      height: 15px;
+      transform-origin: 29.6667px 7.41667px 0px;
+      top: 142px;
+      left: 462px;
+    }
+
+    .gwd-input-te6f {
+      left: 671px;
+      top: 135px;
+    }
+    .gwd-input-178c {
+      left: 461px;
+      top: 131px;
+    }
+    .gwd-input-1xg3 {
+      left: 909px;
+      top: 134px;
+    }
+    .gwd-input-1xrq {
+      top: 135px;
+      left: 1117px;
+    }
+    .gwd-button-minus {
+      left: 978px;
+      top: 168px;
+    }
+    .gwd-span-azs7 {
+      width: 95px;
+      transform-origin: 47.3333px 11.7px 0px;
+      left: 165px;
+      top: 570px;
+    }
+    .gwd-span-ctir {
+      left: 160px;
+      top: 198px;
+    }
+    .gwd-p-6yc5 {
+      position: relative;
+      width: 37px;
+      height: 20px;
+      transform-origin: 18.9933px 10px 0px;
+      top: 546px;
+      left: 166px;
+    }
+    .gwd-p-1mn1 {
+      position: relative;
+      top: 271px;
+      left: 167px;
+    }
+    .gwd-image-4kak {
+      position: absolute;
+      
+      width: 20px;
+      height: 73px;
+      transform-origin: 9.2px 48.4px 0px;
+      transform-style: preserve-3d;
+      transform: translate3d(-1px, 1px, 0px) rotateZ(0.668583deg);
+    }
+    .gwd-image-1mqv {
+      left: 682px;
+      top: 55px;
+      transform: translate3d(206px, 3px, 0px) rotateZ(-58.7946deg);
+    }
+    .gwd-image-14zc {
+      /* left: 922px;
+      top: 51px;
+      transform: translate3d(206px, 3px, 0px) rotateZ(-58.7946deg); */
+      left: -177px;
+      top: 51px;
+      transform: translate3d(653px, 2px, 0px) rotateZ(-58.2578deg);
+    }
+    .gwd-image-15wu {
+      left: 475px;
+      top: 58px;
+      /* transform: translate3d(446px, -3px, 0px) rotateZ(-64.6393deg); */
+      transform: translate3d(446px, -3px, 0px) rotateZ(-58.7946deg);
+    }
+    .gwd-image-zgam {
+      /* position: absolute; */
+      left: -177px;
+      top: 51px;
+      transform: translate3d(653px, 2px, 0px) rotateZ(-58.2578deg);
+    }
+  </style>
+  <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
+  <script data-source="gwd_webcomponents_min.js" data-version="6" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
+  <script data-source="gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="12" data-exports-type="gwd-pagedeck" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdimage_min.js" data-version="12" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
   
-           <a href="dc.html" target="_new">Click Here To Go To The Simulation Page.</a>
-            
+  
+  <script data-source="gwdimagebutton_min.js" data-version="11" data-exports-type="gwd-imagebutton" src="gwdimagebutton_min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  
+</head>
 
+<body class="document-body" data-demo-id="animation">
+  <gwd-pagedeck class="gwd-page-container" id="pagedeck">
+    <gwd-page id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-page-3jik" data-gwd-width="2200px" data-gwd-height="1500px">
+      <div class="gwd-page-content page1-content gwd-div-1but">
+        <svg data-gwd-shape="rectangle" class="gwd-rect-uxvz"></svg>
+        <svg data-gwd-shape="line" preserveAspectRatio="none" viewBox="0 0 1320 1" class="gwd-line-1293">
+          <line x1="0" x2="1320" y1="0.5" y2="0.5"></line>
+        </svg>
+        <svg data-gwd-shape="line" preserveAspectRatio="none" viewBox="0 0 1 608" class="gwd-line-vuf2">
+          <line x1="0.5" x2="0.5" y1="0" y2="608"></line>
+        </svg>
+        <svg data-gwd-shape="line" preserveAspectRatio="none" viewBox="0 0 1 332" class="gwd-line-n86y">
+          <line x1="0.5" x2="0.5" y1="0" y2="332"></line>
+        </svg>
+        <!-- <gwd-image id="mcb_off" source="assets/mcb off.png" onclick="changeImage();start();" scaling="stretch" class="gwd-image-1b4t gwd-gen-lbj9gwdanimation"></gwd-image> -->
+          
+        <input type="image" id="mcb_off" class="gwd-image-1b4t gwd-gen-lbj9gwdanimation disabled" src="assets/mcb1.png">
+        <!-- <input type="image" id="mcb_on" class="gwd-image-1b4t gwd-gen-lbj9gwdanimation hidden" src="assets/mcb on.png" onclick="changeImage2();stop()"/> -->
         
-    </body>
-</html>
+        <svg data-gwd-shape="rectangle" class="gwd-rect-1j4a"></svg>
+        <!-- <p class="gwd-p-vn04">Starter</p> -->
+        <gwd-image id="starter1" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-11yc"></gwd-image>
+        <gwd-image id="starter2" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-luu9"></gwd-image>
+        <gwd-image id="starter3" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-78p5"></gwd-image>
+       
+        <gwd-image id="A_meter" source="assets/A meter.png" scaling="stretch" class="gwd-image-f8b0"></gwd-image>
+        <gwd-image id="A_meter_1" source="assets/A meter.png" scaling="stretch" class="gwd-image-f8b0 gwd-image-182v"></gwd-image>
+        <gwd-image id="V_Meter" source="assets/V Meter.png" scaling="stretch" class="gwd-image-1alm gwd-image-zl3t"></gwd-image>
+        <gwd-image id="V_Meter_1" source="assets/V Meter.png" scaling="stretch" class="gwd-image-1alm gwd-image-1vc9"></gwd-image>
+        <svg data-gwd-shape="rectangle" class="gwd-rect-j7qs"></svg>
+        <input type="image" id="push1" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1fjn gwd-image-1q71" disabled="true"></gwd-image>
+        <input type="image" id="push1_9" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1fjn gwd-image-fljl" disabled="true"></gwd-image>
+        <input type="image" id="push1_8" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1fjn gwd-image-1uv5" disabled="true"></gwd-image>
+        <input type="image" id="push1_7" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1fjn gwd-image-x9em" disabled="true"></gwd-image>
+        <input type="image" id="push1_6" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1fjn gwd-image-nx22" disabled="true"></gwd-image>
+        <input type="image" id="push1_5" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1qvd" disabled="true"></gwd-image>
+        <input type="image" id="push1_4" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-cksb" disabled="true"></gwd-image>
+        <input type="image" id="push1_3" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-1w9j" disabled="true"></gwd-image>
+        <input type="image" id="push1_2" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-8oig" disabled="true"></gwd-image>
+        <input type="image" id="push1_1" src="assets/push1.png" scaling="stretch" class="bulb gwd-image-1qd2 gwd-image-14oa gwd-image-kkx6" disabled="true"></gwd-image>
+        <svg data-gwd-shape="rectangle" class="gwd-rect-1nhd gwd-svg-83di"></svg>
+        <svg data-gwd-shape="rectangle" class="gwd-rect-1nhd gwd-svg-eh72"></svg>
+        <gwd-image id="rotor_part_2" source="assets/rotor part 1.png" scaling="stretch" class="gwd-image-3n7g gwd-image-uecn gwd-gen-1yo6gwdanimation"></gwd-image>
+        <!-- <gwd-image id="rotor_part_2" source="assets/rotor part 1.png"  scaling="stretch" class="gwd-image-3n7g gwd-image-uecn "></gwd-image> -->
+        <!-- <gwd-image id="rotor_part_2_1" source="assets/rotor part 2.png" scaling="stretch" class="gwd-image-qpql gwd-image-15py rotate1"></gwd-image> -->
+        <gwd-image id="rotor_part_2_1" source="assets/rotor part 2.png" scaling="stretch" class="gwd-image-dk0o rotate1"></gwd-image>
+        <!-- <gwd-image id="rotor_part_2_1" source="assets/rotor part 2.png" scaling="stretch" class="gwd-image-qpql gwd-image-15py rotate1"></gwd-image> -->
+        <button id="check-button" class="gwd-button-m5jk gwd-button-15mk">Check</button>
+        <button id="addToTable" class="gwd-button-m5jk gwd-button-13nv" disabled="true">Add</button>
+        <!-- <form action="graph.html">
+            <button id="button_3" onclick="graph();" class="gwd-button-m5jk gwd-button-1ouh">Next</button>
+        </form>
+         -->
 
+         <button id="button_3" class="gwd-button-m5jk gwd-button-1ouh">Graph</button>
+        
+        
+                
+        <input id="reset" class="gwd-button-m5jk gwd-button-q1e1" type="reset" onclick="window.location.href = 'dc.html';" value="Reset">
+        <p class="gwd-p-11tx">&nbsp; &nbsp;Observation Table</p>
+        <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
+          <div id="MB1" class="gwd-button-1ez8 gwd-button-4rqr littledot"></br></br><a href="#" id="plusMCB" class="cmdLink detach" rel="MB1">-<div id="rem1"></div></div>
+            <!-- <span class="gwd-span-1uoa gwd-span-1hp4">+</span> -->
+          <div id="AA2" class="gwd-button-1ez8 gwd-button-4rqr gwd-button-lzcn littledot"></br></br><a href="#" id="minusA1" class="cmdLink detach" rel="AA2">-<div id="rem2"></div></div>
+          <div id="AA1" class="gwd-button-1ez8 gwd-button-vhqe littledot"></br></br><a href="#" class="cmdLink detach" id="plusA1" rel="AA1">+<div id="rem3"></div></div>
+          <div id="VV1" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-1qel littledot"></br></br><a href="#" id="plus" class="cmdLink detach" rel="VV1">+<div id="rem4"></div></div>
+          <div id="AB1" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-1qel gwd-button-okbp littledot"></br></br><a href="#" id="plus" class="cmdLink detach" rel="AB1">+<div id="rem5"></div></div>
+          <div id="AB2" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-1qel gwd-button-10dx gwd-button-minus littledot"></br></br><a href="#" id="minus" class="cmdLink detach" rel="AB2">-<div id="rem6"></div></div>
+          <div id="VA1" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-1qel gwd-button-10dx gwd-button-14z8 littledot"></br></br><a href="#" id="plus" class="cmdLink detach" rel="VA1">+<div id="rem7"></div></div>
+          <div id="VB2" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-1qel gwd-button-10dx gwd-button-q04n littledot"></br></br><a href="#" id="minus" class="cmdLink detach" rel="VB2">-<div id="rem8"></div></div>
+          <div id="VV2" class="gwd-button-1ez8 gwd-button-vhqe gwd-button-16on littledot"></br></br><a href="#" id="minus" class="cmdLink detach" rel="VV2">-<div id="rem9"></div></div>
+          <div id="S1" class="gwd-button-1ez8 gwd-button-9t4m littledot"></br></br><a href="#" class="cmdLink detach" rel="S1">L<div id="rem10"></div></div>
+          <div id="S2" class="gwd-button-1ez8 gwd-button-7tuy littledot"></br></br><a href="#" class="cmdLink detach" rel="S2">F<div id="rem11"></div></div>
+          <div id="S3" class="gwd-button-1ez8 gwd-button-13fg littledot"></br></br><a href="#" class="cmdLink detach" rel="S3">A<div id="rem12"></div></div>
+          <div id="MB2" class="gwd-button-1ez8 gwd-button-1ggw littledot"></br></br><a href="#" id="minusMCB" class="cmdLink detach" rel="MB2">+<div id="rem13"></div></div>
+          <div id="B2" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-b1 littledot"></br><a href="#" id="B2" class="cmdLink detach" rel="B2"><div id="rem14"></div></div>
+          <div id="M3" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-h0i5 littledot"></br></br><a href="#" id="A2" class="cmdLink detach" rel="M3">A2<div id="rem15"></div></div>
+          <div id="M4" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1kfq gwd-button-1qbd littledot"></br></br><a href="#" id="Z2" class="cmdLink detach" rel="M4">Z2<div id="rem16"></div></div>
+          <div id="G1" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1kfq gwd-button-3vxd gwd-button-mqtu littledot"></br><a href="#" id="A1" class="cmdLink detach" rel="G1">A1<div id="rem17"></div></div>
+          <div id="G3" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1kfq gwd-button-3vxd gwd-button-a2 littledot "></br></br><a href="#" id="A2_2" class="cmdLink detach" rel="G3">A2<div id="rem18"></div></div>
+          <div id="G2" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1kfq gwd-button-3vxd gwd-button-1ux9 littledot"></br><a href="#" id="Z1" class="cmdLink detach" rel="G2">&nbsp;Z1<div id="rem19"></div></div>
+          <div id="G4" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1kfq gwd-button-o26n littledot"></br></br><a href="#" id="Z2" class="cmdLink detach" rel="G4">Z2<div id="rem20"></div></div>
+          <div id="M1" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-mllc  littledot"></br><a href="#" id="A1" class="cmdLink detach" rel="M1">A1<div id="rem21"></div></div>
+          <div id="M2" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-w8r9 gwd-button-2cgy gwd-button-1ffb  littledot"></br><a href="#" id="Z1" class="cmdLink detach" rel="M2">Z1<div id="rem22"></div></div>
+          <div id="B1" class="gwd-button-1ez8 gwd-button-1ggw gwd-button-swj7 littledot"></br><a href="#" id="B1" class="cmdLink detach" rel="B1"><div id="rem23"></div></div>
+            <p class="gwd-span-16i1 gwd-p-17vd gwd-p-ylf9 gwd-gen-1csagwdanimation gwd-p-6yc5">&nbsp;L2</p>
+        <p class="gwd-span-16i1 gwd-p-17vd gwd-p-ylf9 gwd-gen-1csagwdanimation gwd-p-1mn1">&nbsp;L1</p>
+        
+        </div>
+        <gwd-imagebutton id="gwd-imagebutton_1" up-image="" over-image="" down-image="" scaling="cover" class="gwd-imagebutton-qf59"></gwd-imagebutton>
+        <!-- <gwd-image id="niddle_3" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-ytb9 gwd-gen-il4wgwdanimation"></gwd-image>
+        <gwd-image id="niddle_2" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-14vj gwd-gen-6xaegwdanimation"></gwd-image>
+        <gwd-image id="niddle_5" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-qi8o gwd-gen-1865gwdanimation"></gwd-image>
+        <gwd-image id="niddle_4" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-qtug gwd-gen-1twagwdanimation"></gwd-image> -->
+        <gwd-image id="niddle_3" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-ytb9 gwd-gen-il4wgwdanimation"></gwd-image>
+        <gwd-image id="niddle_2" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-14vj gwd-gen-6xaegwdanimation"></gwd-image>
+        <gwd-image id="niddle_5" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-qi8o gwd-gen-1865gwdanimation"></gwd-image>
+        <gwd-image id="niddle_4" source="assets/n1.png" scaling="stretch" class="gwd-image-1hb5 gwd-image-13cv gwd-image-qtug gwd-gen-1twagwdanimation"></gwd-image>
+        
+         <!-- <gwd-image id="niddle" source="assets/n1.png" scaling="stretch" class="gwd-image-4kak gwd-image-zgam"></gwd-image>
+        <gwd-image id="niddle_3" source="assets/niddle.png" scaling="stretch" class="gwd-image-4kak gwd-image-1mqv"></gwd-image>
+        <gwd-image id="niddle_2" source="assets/niddle.png" scaling="stretch" class="gwd-image-4kak gwd-image-15wu"></gwd-image>
+        <gwd-image id="niddle_1" source="assets/niddle.png" scaling="stretch" class="gwd-image-4kak gwd-image-14zc"></gwd-image> -->
+        <!-- <gwd-image id="DC_motor_03_2" source="assets/DC motor 03e.png" scaling="stretch" class="gwd-image-f1lx gwd-gen-1y68gwdanimation"></gwd-image> -->
+        <svg data-gwd-shape="rectangle" class="gwd-rect-1ldd gwd-gen-1f0cgwdanimation"></svg>
+        <svg data-gwd-shape="rectangle" class="gwd-rect-xfxw gwd-gen-p6z9gwdanimation"></svg>
+          <select id="select_1" class="gwd-select-li9t" disabled = "true"><sup class="gwd-sub-nzt4">No. Of Bulbs</sup>
+          <option value="0" class="form-control" disabled selected>Bulbs</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <gwd-image id="Induction__Machine_02e" source="assets/Induction  Machine 02e.png" scaling="stretch" class="gwd-image-1uq2"></gwd-image>
+        <!-- <gwd-image id="push1_10" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-11yc"></gwd-image>
+        <gwd-image id="push1_12" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-luu9"></gwd-image>
+        <gwd-image id="push1_11" source="assets/push1.png" scaling="stretch" class="gwd-image-1c4n gwd-image-78p5"></gwd-image>
+        -->
+        <!-- <div style="height: 80px; width: 100px; overflow: auto"> -->
+            <table border="1" id="table" class="gwd-table-y2uh active-element-outline">
+          
+            </table>
+        <!-- </div> -->
+      </div>
+      
+      <span class="gwd-sub-1u5p gwd-span-s5rz gwd-gen-yx0ygwdanimation"><sub class="gwd-sub-1xuc">(DC Motor)</sub></span><span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-z5ze"><sub class="gwd-sub-1xuc">(A Meter 1-20 A)</sub></span>
+        <span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-z5ze gwd-span-1r1z"><sub class="gwd-sub-1xuc">(A Meter 2-20 A)</sub>
+              </span><span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-z5ze gwd-span-1m87 gwd-span-rnqr"><sub class="gwd-sub-1xuc">(V Meter 1 -230 V)</sub></span><span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-z5ze gwd-span-1m87 gwd-span-1n7f"><sub class="gwd-sub-1xuc">(V Meter 2 -230 V)</sub></span>
+        <span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-nkjp"><sub class="gwd-sub-1xuc">(MCB)</sub>
+                </span>
+        <span class="gwd-sub-1u5p gwd-span-1we6 gwd-gen-1k9hgwdanimation"><sub class="gwd-sub-1xuc">(DC Generator)</sub>
+                  </span>
+                  <span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-ctir"><sub class="gwd-sub-1xuc">(Starter)</sub></span>
+                  <span class="gwd-sub-1u5p gwd-span-1orn gwd-span-1b6y gwd-span-nkjp gwd-span-azs7"><sub class="gwd-sub-1xuc">(Lamp Load)</sub></span>
+      <div id="myDiv" style="width: 1300px; height: 400px; border: 2px solid black">
+        
+      </div>
+      <input style=" background: #27d447 !important;height:30px; width:100px" id = "pr" type = "button" value = " Print  " onclick="print()">
+      <input type="text" id="text_1" class="gwd-input-dldk gwd-input-178c gwd-gen-1afbgwdanimation" disabled>
+        <input type="text" id="text_4" class="gwd-input-dldk gwd-input-1xrq gwd-gen-135vgwdanimation" disabled>
+        <input type="text" id="text_3" class="gwd-input-dldk gwd-input-1xg3 gwd-gen-1dx0gwdanimation" disabled>
+        <input type="text" id="text_2" class="gwd-input-dldk gwd-input-te6f gwd-gen-uk6ggwdanimation" disabled>
+        
+        <button class="tooltip">Instruction
+            <span class="tooltiptext">Step 1: Make all the Correct Connections.<br>
+              <p style="font-weight: 100;font-size:15px;">
+                1.   Positive Terminal of MCB - Positive Terminal of A Meter-1 <br>
+                2.   Positive Terminal of MCB - Positive Termainal of V Meter-2<br>
+                3.   Negative Terminal of MCB - Negative Terminal of V Meter-1<br> 
+                4.   Negative Terminal of MCB - A2 of Motor<br>
+                5.   A2 - F2<br>
+                6.   L - Negative Termianl of A Meter-1 <br>
+                7.   F - Z1<br>
+                8.   A - A1<br>
+                9.   L2 - A2 of Generator<br>
+                10.  A2 of Generator - F2 of Generator<br>
+                11.  F2 of Generator - Negative Termianl of V Meter-2 <br>
+                12.  Negative Terminal of A Meter-2 - Positive Terminal of V Meter-2 <br>
+                13.  Positive of V Meter-2 - L1<br>
+                14.  Positive Terminal of A Meter-2 - A1 of Generator <br>
+                15.  Positive Terminal of A Meter-2 - Z1 of Generator <br>
+              </p>
+                <strong>Step 2: Click on Check Button.</strong><br>
+                <strong>Step 3: After Correct Connections the Circuit will be turned ON.</strong><br>
+                <strong>Step 4: Select the No. of Bulbs from the Lamp load.</strong><br>
+                <strong>Step 5: Note Down the readings of the Ammeters & Voltmeters.</strong><br>
+                <strong>Step 6: Click "Add" Button to Add the values to the Observation Table.</strong><br>
+                <strong>Step 7: Add different values to the Table.</strong><br>
+                <strong>Step 8: Click on "Graph" Button to Create Graph.</strong><br>
+                <strong>Step 9: Scroll Down to See and Print the Graph.</strong><br>
+
+              </span>
+            </button>  
+    </gwd-page>
+    <gwd-page id="page1_1" class="gwd-page-wrapper gwd-lightbox gwd-page-8ug3" data-gwd-width="2200px" data-gwd-height="1200px" data-gwd-name="graph">
+        <!-- <div class="gwd-page-content gwd-div-1jc6">
+          <div data-gwd-shape="rectangle" class="gwd-rect-10gm">
+            <button id="myButton">Graph</button>
+            <div id="myDiv" style="width:500px; height:300px;">
+
+            </div>
+          </div>
+          
+           <button id="myButton">Graph</button>
+          <div id="myDiv" style="width:500px; height:300px;">
+        </div> -->
+        
+    </gwd-page>
+  </gwd-pagedeck>
+  
+  
+  <script src="jsplumb1.js"></script>
+  <script src="script.js"></script>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var pageDeck = document.getElementById('pagedeck');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {}
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        setTimeout(function() {
+          pageDeck.goToPage(pageDeck.getDefaultPage().id);
+        }, 0);
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+    })();
+
+  </script>
+  <script src="script2.js"></script>
+  
+</body>
+
+</html>
