@@ -28,7 +28,7 @@ D Much smaller<br>
 
 Q4 The function of using compensating winding in dc machines is to neutral-lize the<br>
 A Armature reaction in the interpole zone<br>
-B Armature reacting in the commu-tating zone<br>
+B Armature reaction in the commutating zone<br>
 <b>C Armature reaction under the pole faces<br></b>
 D Cross-magnetizing armature reaction<br>
 

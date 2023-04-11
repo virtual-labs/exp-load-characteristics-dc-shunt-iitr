@@ -130,7 +130,8 @@ jsPlumb.ready(function () {
             e20 = prepare("G4"),
             e21 = prepare("M1"),
             e22 = prepare("M2"),
-            e23 = prepare2("B1")
+            e23 = prepare2("B1"),
+            
 
             
            
@@ -336,6 +337,9 @@ jsPlumb.ready(function () {
             }
         ];
 
+
+       
+
         //a connection outside this will invalidate the circuit
         var allowed_connections = [
             
@@ -513,8 +517,9 @@ jsPlumb.ready(function () {
                 {
                     "source": "G2",
                     "target": "AB1"
-                }
-            
+                },
+
+               
     
         ];
 
@@ -535,7 +540,6 @@ jsPlumb.ready(function () {
         var is_connected_VA1_AB2 = false;
         var is_connected_AB1_G1 = false;
         var is_connected_AB1_G2 = false;
-        var is_connected = false;
         var unallowed_connection_present = false;
         //checking for 1_7 connection 1
         actual_connections.forEach(function (connection) {
@@ -770,9 +774,10 @@ jsPlumb.ready(function () {
         });
 
         
+        
 
-        // if (is_connected_AB1_G1 && is_connected_AB1_G2 && is_connected_B1_VA1 && is_connected_B2_G3 && is_connected_G3_G4 && is_connected_G4_VB2 && is_connected_M3_M4 && is_connected_MB1_M3 && is_connected_MB1_VV2 && is_connected_MB2_AA1 && is_connected_MB2_VV1 && is_connected_S1_AA2 && is_connected_S2_M2 && is_connected_S3_M1 && is_connected_VA1_AB2 && unallowed_connection_present) 
-        if (is_connected_AB1_G1) 
+         if (is_connected_AB1_G1 && is_connected_AB1_G2 && is_connected_B1_VA1 && is_connected_B2_G3 && is_connected_G3_G4 && is_connected_G4_VB2 && is_connected_M3_M4 && is_connected_MB1_M3 && is_connected_MB1_VV2 && is_connected_MB2_AA1 && is_connected_MB2_VV1 && is_connected_S1_AA2 && is_connected_S2_M2 && is_connected_S3_M1 && is_connected_VA1_AB2 && unallowed_connection_present) 
+       // if (is_connected_AB1_G1) 
             
         
         {
@@ -782,12 +787,7 @@ jsPlumb.ready(function () {
             changeImage();
             // start();
             fnccheck();
-            
-            document.getElementById("mcb_off").disabled = false;
-            document.getElementById("mcb_off").classList.remove("disabled");
-            // document.getElementById("mcb_off").classList.add("hidden");
-            // document.getElementById("mcb_on").classList.add("display");
-            // document.getElementById("mcb_on").classList.remove("hidden");
+
 
             document.getElementById("rem1").remove();
             document.getElementById("rem2").remove();
@@ -813,6 +813,17 @@ jsPlumb.ready(function () {
             document.getElementById("rem22").remove();
             document.getElementById("rem23").remove();
 
+            
+            document.getElementById("mcb_off").disabled = false;
+            document.getElementById("mcb_off").classList.remove("disabled");
+            // document.getElementById("mcb_off").classList.add("hidden");
+            // document.getElementById("mcb_on").classList.add("display");
+            // document.getElementById("mcb_on").classList.remove("hidden");
+
+            
+
+            
+
         } 
         else 
         {
@@ -830,6 +841,8 @@ jsPlumb.ready(function () {
     });
 
 });
+
+
 
 var e = document.getElementById("select_1");
 var strUser = e.options[e.selectedIndex].value;
@@ -1128,6 +1141,11 @@ var bulb7 = document.getElementById('push1_4');
 var bulb8 = document.getElementById('push1_3');
 var bulb9 = document.getElementById('push1_2');
 var bulb10 = document.getElementById('push1_1');
+
+
+            
+
+
 function changeImage() {
     if (rightConnection == false) {
         alert("Make the connection first");
@@ -1148,8 +1166,11 @@ function changeImage() {
             starter1.src = "assets/push2.png";
             starter2.src = "assets/push2.png";
             starter3.src = "assets/push2.png";
-            
             start();
+
+
+            
+            
             if (mcbState == true) {
                 document.getElementById('select_1').disabled = false;
                 document.getElementById('push1').disabled = false;
@@ -1163,6 +1184,10 @@ function changeImage() {
                 document.getElementById('push1_8').disabled = false;
                 document.getElementById('push1_9').disabled = false;
                 document.getElementById('addToTable').disabled = false;
+
+
+               
+
             }
         }
         
