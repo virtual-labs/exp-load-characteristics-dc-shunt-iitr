@@ -94,6 +94,7 @@ button#checkButton {
 button#resetButton {
     margin-top: 15px;
     margin-left: 15px;
+    
 }
 
 
@@ -105,7 +106,7 @@ button#addButton {
 
 button {
     background-color: green;
-    border: 4px solid black;
+    border: 2px solid black;
     color: black;
     font-weight: bold;
     cursor: pointer;
@@ -125,7 +126,7 @@ table {
     margin-left: 50px;
     margin-bottom: 10px;
     text-align: center;
-   overflow-y:auto;
+    overflow-y:auto;
 }
 
 #div3 img {
@@ -155,7 +156,7 @@ table {
 
 body {
     background-color: linen;
-
+    
 }
   
 html, body { height: 100%; padding: 0; margin: 0; }
@@ -203,10 +204,13 @@ html, body { height: 100%; padding: 0; margin: 0; }
 #pr {
     position: relative;
     top: 660px;
-    right: 100px;
+    right: 60px;
     
 }
 
+#pr:hover{
+    background-color: #3b9149;
+}
 path, .jtk-endpoint {
     cursor: pointer;
 }
@@ -408,7 +412,112 @@ a#minus {
 
 a#minusMCB {
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
+}
+
+#rem2{
+    position: absolute;
+    margin-top: 7px;
+}
+
+#rem3{
+    position:absolute;
+    margin-top:7px;
+    margin-left: -4px;
+}
+
+#rem4{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -4px;
+}
+
+#rem5{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem6{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem7{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem8{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem9{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem13{
+    position:absolute;
+    margin-top: 7px;
+}
+
+#rem14{
+    position:absolute;
+    margin-top: -26px;
+    margin-left: -41px;
+}
+
+#rem15{
+    position:absolute;
+    margin-top: -42px;
+}
+
+#rem16{
+    position:absolute;
+    margin-top: 3px;
+}
+
+#rem17{
+    position:absolute;
+    margin-top: 4px;
+}
+
+#rem18{
+    position:absolute;
+    margin-top: 10px;
+}
+
+#rem19{
+    position:absolute;
+    margin-top: 4px;
+}
+
+#rem20{
+    position:absolute;
+    margin-top: 6px;
+}
+
+#rem21{
+    position:absolute;
+    margin-top: 5px;
+}
+
+#rem22{
+    position:absolute;
+    margin-top: 5px;
+}
+
+#rem23{
+    position:absolute;
+    margin-top: -26px;
+    margin-left: -41px;
+}
+
+#rem24{
+    position:absolute;
+    margin-top: 235px;
+    margin-left: -38px;
 }
 
 a#plus {
@@ -481,29 +590,31 @@ a#Z1 {
   .tooltip {
     position: absolute;
     display: inline-block;
-    margin-left: -170px;
-   margin-top: 60px;
+    margin-left: -150px;
+   margin-top: 31px;
    /* color: white; */
    text-decoration: underline;
     padding: 12px 10px;
     /* border-bottom: 1px;  */
-    border-style: none;
+    border: 2px solid black;
     font-style: normal;
     background-color: #27d447
-
+    
   }
   
   /* Tooltip text */
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 450px;
-    background:linen;
+    width: 500px;
+    margin-top: 31px;
+    background:white;
     color: black;
     text-align: left;
     padding: 5px 0;
     border-radius: 6px;
     font-size: 15px;
-    font-weight: bold;
+    text-align: justify;
+    /* font-weight: bold; */
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
@@ -513,6 +624,18 @@ a#Z1 {
   .tooltip:hover .tooltiptext {
     visibility: visible;
     position: absolute;
-    margin-left: -400px;
+    margin-left: -488px;
     padding-left: 5px;
   }
+
+  footer{
+    position: absolute;
+    background-color: grey;
+    width:1304px;
+    height:30px;
+    color: white;
+    margin-top: 1060px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 12px;
+}

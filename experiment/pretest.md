@@ -1,17 +1,17 @@
 ## Pre test
 
 <br>
-Q1 DC shunt generator has terminal voltage versus load current characteristic which is <br>
+Q1 DC shunt generator has terminal voltage versus load current characteristic which is<br>
 A Constant<br>
 B Slightly drooping<br>
 C Slightly rising<br>
 <b>D Highly drooping</b><br><br>
 
 
-Q2 Which of the following type of dc generator gives constant output voltage at all loads ?<br>
+Q2 Which of the following type of dc generator gives constant output voltage at all loads?<br>
 A Shunt generator<br>
 B Series generator<br>
-C Shot shunt compound generator<br>
+C Short shunt compound generator<br>
 <b>D Level compound generator<br></b>
 
 
@@ -29,7 +29,7 @@ C Remains unchanged<br>
 D May increase or decrease<br>
 
 
-Q5 Copper losses in armature of dc generator amount to which of the following percentage of full load losses ?<br>
+Q5 Copper losses in armature of dc generator amount to which of the following percentage of full load losses?<br>
 A 5 to 10%<br>
 B 10 to 20%<br>
 C 20 to 30%<br>
