@@ -1,5 +1,14 @@
-html, body { height: 100%; padding: 0; margin: 0; }
-div { width: 100%; height: 100%; float: left; }
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    float: left;
+}
+
 #div1 {
     width: 25%;
     height: 45%;
@@ -24,7 +33,7 @@ div { width: 100%; height: 100%; float: left; }
 #div4 {
     width: 45%;
     height: 54%;
-    
+
     border: 1px solid black
 }
 
@@ -41,20 +50,20 @@ div { width: 100%; height: 100%; float: left; }
 #mcbOff {
     width: 50px;
     padding-left: 20px;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 #div2 img {
     width: 200px;
     padding-left: 30px;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 #motorOutside {
     position: absolute;
     width: 200px;
     padding-left: 60px;
-    padding-top: 60px; 
+    padding-top: 60px;
     left: 28%;
     top: 47%;
 }
@@ -65,16 +74,16 @@ div { width: 100%; height: 100%; float: left; }
     padding-left: 30px;
     padding-top: 30px;
     top: 72px;
-    left: 105px; 
+    left: 105px;
 }
 
 #generatorOutside {
     position: absolute;
     width: 200px;
     padding-left: 60px;
-    padding-top: 60px; 
+    padding-top: 60px;
     left: 48%;
-    top: 47%; 
+    top: 47%;
 }
 
 #generatorInside {
@@ -83,7 +92,7 @@ div { width: 100%; height: 100%; float: left; }
     padding-left: 30px;
     padding-top: 30px;
     top: 72px;
-    left: 208px; 
+    left: 208px;
 }
 
 button#checkButton {
@@ -94,7 +103,7 @@ button#checkButton {
 button#resetButton {
     margin-top: 15px;
     margin-left: 15px;
-    
+
 }
 
 
@@ -102,13 +111,13 @@ button#resetButton {
 button#addButton {
     position: relative;
     left: 40%;
+
 }
 
 button {
-    background-color: green;
+    /* background-color: green; */
     border: 2px solid black;
     color: black;
-    font-weight: bold;
     cursor: pointer;
     padding: 5px;
 }
@@ -126,14 +135,17 @@ table {
     margin-left: 50px;
     margin-bottom: 10px;
     text-align: center;
-    overflow-y:auto;
+    overflow-y: auto;
 }
 
 #div3 img {
     width: 35px;
 }
 
-#text_1,#text_2,#text_3,#text_4 {
+#text_1,
+#text_2,
+#text_3,
+#text_4 {
     text-align: center;
     font-weight: bold
 }
@@ -149,22 +161,28 @@ table {
     margin-left: 85px;
 
     border: 1px solid black;
-    
+
 }
 
 /* ||===========================================================|| */
 
 body {
     background-color: linen;
-    
+
 }
-  
-html, body { height: 100%; padding: 0; margin: 0; }
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 .demo {
     /* for IE10+ touch devices */
-    touch-action:none;
+    touch-action: none;
 }
+
 /** JSPLUMB ARTEFACTS **/
 .jtk-overlay {
     z-index: 51;
@@ -180,8 +198,7 @@ html, body { height: 100%; padding: 0; margin: 0; }
 }
 
 /** ELEMENTS **/
-.littledot
-{
+.littledot {
     cursor: pointer;
     width: 5px;
     height: 5px;
@@ -202,16 +219,25 @@ html, body { height: 100%; padding: 0; margin: 0; }
 }
 
 #pr {
+    background-color: #0d6efd;
     position: relative;
-    top: 660px;
-    right: 60px;
-    
+    top: 565px;
+    right: 54px;
+    font-size: 15px;
+    border: 2px solid black;
+    font-weight: 400;
+    border-radius: 8px;
 }
 
-#pr:hover{
-    background-color: #3b9149;
+#pr:hover {
+    background-color: #0b5ed7;
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 125, 0.125);
 }
-path, .jtk-endpoint {
+
+
+
+path,
+.jtk-endpoint {
     cursor: pointer;
 }
 
@@ -224,26 +250,27 @@ path, .jtk-endpoint {
     display: inline-block; 
   } */
 
-  .wrapper {
-      width: 80em;
-      position: relative;
-      
-  }
-  .rang {
-    text-align: center;
-    
-  }
+.wrapper {
+    width: 80em;
+    position: relative;
 
-  .rang-title {
+}
+
+.rang {
+    text-align: center;
+
+}
+
+.rang-title {
     margin-left: 20px;
     display: inline-block;
     width: 200px;
     margin-bottom: 20px;
-  }
+}
 
-  .rang-title2 {
+.rang-title2 {
     position: relative;
-    left: 50%; 
+    left: 50%;
     bottom: 100%;
     /*
     bottom: 20%;
@@ -251,94 +278,94 @@ path, .jtk-endpoint {
     width: 200px; */
     /* margin-bottom: 20px; */
     margin-left: 15px;
-    
+
     width: 200px;
     margin-bottom: 20px;
-  }
+}
 
-  .rang-number {
+.rang-number {
     width: 100%;
     margin-top: 10px;
-    
+
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     background-color: #fff;
     color: black;
-  }
+}
 
-  .rang-slider {
+.rang-slider {
     margin-top: 30px;
     width: 80%;
-    
-  }
-  .meter {
+
+}
+
+.meter {
     display: block;
     width: 283px;
     height: 155px;
     margin: 0px auto
+}
 
-  }
-
-  .meter-shape {
+.meter-shape {
     -webkit-transform: skewX(-2deg) skewY(1deg);
-            transform: skewX(-2deg) skewY(1deg);
+    transform: skewX(-2deg) skewY(1deg);
     stroke-width: 18;
     stroke-dashoffset: 253;
     stroke: #ff1515;
     fill: none;
-  }
+}
 
-  .meter-clock {
+.meter-clock {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
-  }
+}
 
-  .meter-clock2 {
+.meter-clock2 {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137 px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
-  }
+}
 
-  .meter-circle {
+.meter-circle {
     fill: black;
-  }
+}
 
-  #range {
+#range {
     width: 100px;
-  }
+}
 
-  .meter1 {
+.meter1 {
     width: 500px;
     margin: auto 100px;
-  }
+}
 
-  .meter2 {
+.meter2 {
     position: relative;
     bottom: 20%;
     width: 100%;
     margin: auto 100px;
-    
-  }
 
-  .other {
+}
+
+.other {
     text-align: center;
-  }
+}
 
-  .other {
+.other {
     margin-top: 70px;
-  }
+}
 
-  #myDiv {
-      position: relative;
-      top: 120%;
-      left: 3%;
-  }
+#myDiv {
+    position: relative;
+    top: 120%;
+    left: 3%;
+}
 
 .disabled {
     opacity: 0.5
@@ -354,33 +381,33 @@ path, .jtk-endpoint {
 
 .meter-clock {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
 }
 
 .meter-clock2 {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
 }
 
 .meter-clock3 {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
 }
 
 .meter-clock4 {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
     -webkit-transform-origin: 137px 146px;
-            transform-origin: 137px 146px;
+    transform-origin: 137px 146px;
     fill: black;
 }
 
@@ -392,12 +419,12 @@ path, .jtk-endpoint {
 a {
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 a#plusMCB {
     position: relative;
-    bottom: 10px;
+    bottom: -10px;
 }
 
 a#minusA1 {
@@ -412,110 +439,110 @@ a#minus {
 
 a#minusMCB {
     position: relative;
-    bottom: 15px;
+    bottom: -5px;
 }
 
-#rem2{
+#rem2 {
     position: absolute;
     margin-top: 7px;
 }
 
-#rem3{
-    position:absolute;
-    margin-top:7px;
-    margin-left: -4px;
-}
-
-#rem4{
+#rem3 {
     position: absolute;
     margin-top: 7px;
     margin-left: -4px;
 }
 
-#rem5{
-    position:absolute;
+#rem4 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -4px;
+}
+
+#rem5 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem6{
-    position:absolute;
+#rem6 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem7{
-    position:absolute;
+#rem7 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem8{
-    position:absolute;
+#rem8 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem9{
-    position:absolute;
+#rem9 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem13{
-    position:absolute;
+#rem13 {
+    position: absolute;
     margin-top: 7px;
 }
 
-#rem14{
-    position:absolute;
+#rem14 {
+    position: absolute;
     margin-top: -26px;
     margin-left: -41px;
 }
 
-#rem15{
-    position:absolute;
+#rem15 {
+    position: absolute;
     margin-top: -42px;
 }
 
-#rem16{
-    position:absolute;
+#rem16 {
+    position: absolute;
     margin-top: 3px;
 }
 
-#rem17{
-    position:absolute;
+#rem17 {
+    position: absolute;
     margin-top: 4px;
 }
 
-#rem18{
-    position:absolute;
+#rem18 {
+    position: absolute;
     margin-top: 10px;
 }
 
-#rem19{
-    position:absolute;
+#rem19 {
+    position: absolute;
     margin-top: 4px;
 }
 
-#rem20{
-    position:absolute;
+#rem20 {
+    position: absolute;
     margin-top: 6px;
 }
 
-#rem21{
-    position:absolute;
+#rem21 {
+    position: absolute;
     margin-top: 5px;
 }
 
-#rem22{
-    position:absolute;
+#rem22 {
+    position: absolute;
     margin-top: 5px;
 }
 
-#rem23{
-    position:absolute;
+#rem23 {
+    position: absolute;
     margin-top: -26px;
     margin-left: -41px;
 }
 
-#rem24{
-    position:absolute;
+#rem24 {
+    position: absolute;
     margin-top: 235px;
     margin-left: -38px;
 }
@@ -528,17 +555,18 @@ a#plus {
 a#plusA1 {
     position: relative;
     bottom: 10px;
-} 
-  a#B2 {
+}
+
+a#B2 {
     position: absolute;
-    
+
 }
 
 a#B1 {
     /* position: relative; */
     left: 30px;
     bottom: 25px;
-} 
+}
 
 a#A2 {
     position: relative;
@@ -563,7 +591,7 @@ a#A1 {
     right: 40px;
     bottom: 30px
 }
- 
+
 a#Z1 {
     position: relative;
     left: 30px;
@@ -577,65 +605,77 @@ a#Z1 {
     transform-style: preserve-3d;
     transform-origin: 37.5px 37.5px 0px;
     transform: translate3d(13.4933px, 6.2972px, 0px) scale3d(0.880538, 0.685566, 1);
-  }
+}
 
-  .gwd-image-qpql {
+.gwd-image-qpql {
     position: absolute;
     left: 724px;
     top: 383px;
     width: 75px;
     height: 75px;
-  }
+}
 
-  .tooltip {
+.tooltip {
     position: absolute;
     display: inline-block;
     margin-left: -150px;
-   margin-top: 31px;
-   /* color: white; */
-   text-decoration: underline;
-    padding: 12px 10px;
-    /* border-bottom: 1px;  */
+    margin-top: 31px;
+    padding: 10px 3px;
     border: 2px solid black;
-    font-style: normal;
-    background-color: #27d447
-    
-  }
-  
-  /* Tooltip text */
-  .tooltip .tooltiptext {
+    background-color: #ed143d;
+    color: white;
+    font-size: 15px;
+    width: 98px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+/* Tooltip text */
+.tooltiptext {
     visibility: hidden;
     width: 500px;
     margin-top: 31px;
-    background:white;
+    right: -3px;
+    background: white;
     color: black;
     text-align: left;
     padding: 5px 0;
     border-radius: 6px;
     font-size: 15px;
     text-align: justify;
+    box-shadow: 5px 5px 30px;
+    border: 1px solid;
     /* font-weight: bold; */
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-  }
-  
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .tooltip:hover .tooltiptext {
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover {
+    background-color: #bb2d3b;
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
     position: absolute;
     margin-left: -488px;
     padding-left: 5px;
-  }
+}
 
-  footer{
+footer {
     position: absolute;
-    background-color: grey;
-    width:1304px;
-    height:30px;
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 1304px;
+    height: 30px;
     color: white;
-    margin-top: 1060px;
-    margin-left: 30px;
+    top: 1060px;
+    left: 30px;
     text-align: center;
-    padding-top: 12px;
+}
+
+footer p{
+    position: relative;
+    margin-top: 6px;
 }
