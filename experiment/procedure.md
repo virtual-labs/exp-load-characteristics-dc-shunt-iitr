@@ -1,6 +1,6 @@
 <b>STEP 1:</b> Make Connections as per the instructions given below:<br>
 
-<table>
+<table style="text-align:center;">
 <tr>
             <td style="border:1px solid black;"><b>From</b></td>
             <td style="border:1px solid black;">R</td>
@@ -39,7 +39,7 @@
 </tr>
 </table>
         
- <img src="images/correctConnections.png" alt="" height="500" width="800"><br>
+ <img src="images/CorrectConnections.png" alt="" height="500" width="800"><br>
 <strong>STEP 2:</strong> Click on <b>"Check"</b> Button for checking the connections.<br><br>
 <strong>STEP 3:</strong> If connections is correct, MCB will be turned ON.<br><br>
 <strong>STEP 4:</strong> Select the No. of Bulbs from the Lamp load.<br><br>
