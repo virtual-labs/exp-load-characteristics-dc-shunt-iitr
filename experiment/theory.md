@@ -14,7 +14,7 @@ AC curve is showing the external characteristic of the shunt wound DC generators
 
 <center style="font-size:130%; margin-top:2%">
 
-$V = (E_g - I_aR_a) = E_g - (I_L + I_{sh})R_a$
+$$ V = (E_g - I_aR_a) = E_g - (I_L + I_{sh})R_a $$
 
 </center>
                         
