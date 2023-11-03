@@ -12,7 +12,7 @@ AC curve is showing the external characteristic of the shunt wound DC generators
 
 <center style="font-size:130%; margin-top:2%">
 
-V = (E<sub>g</sub> - I<sub>a</sub>  R<sub>a</sub>) = E<sub>g</sub> - (I<sub>L</sub> + I<sub>sh</sub>)R<sub>a</sub>   $$
+V = (E<sub>g</sub> - I<sub>a</sub>  R<sub>a</sub>) = E<sub>g</sub> - (I<sub>L</sub> + I<sub>sh</sub>)R<sub>a</sub>  
 
 </center>
                         
