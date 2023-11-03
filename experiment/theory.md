@@ -4,8 +4,6 @@ The shunt field winding has many turns of fine wire having high resistance. Ther
                         <center><img align="middle" alt="" src="images/DCS-01.png" style="width:500px;height:250px"/></center><br>
                         <center><b>Fig. 1 Equivalent circuit of DC shunt generator for load characteristics</b></center>
                         
-
-
 ### Internal characteristic            
 The internal characteristic curve represents the relation between the generated voltage E<sub>g</sub> and the load current I<sub>L</sub>. When the generator is loaded then the generated voltage is decreased due to armature reaction. So, generated voltage will be lower than the emf generated at no load. Here in the figure below AD curve is showing the no load voltage curve and AB is the internal characteristic curve.<br>
 
@@ -14,7 +12,7 @@ AC curve is showing the external characteristic of the shunt wound DC generators
 
 <center style="font-size:130%; margin-top:2%">
 
-$$ V = (E_g - I_aR_a) = E_g - (I_L + I_{sh})R_a $$
+$$   V = (E_g - I_a R_a) = E_g - (I_L + I_{sh})R_a   $$
 
 </center>
                         
